@@ -69,3 +69,55 @@ header{
   font-size: 20px;
   margin-left: 4px;
 }
+.intro{
+  
+  font-family: 'Rubik', sans-serif;
+  line-height: 1.8;
+  max-width: 600px;
+  width: 100%;
+  
+  display: flex;
+  align-items: center;
+  
+}
+.produtos{
+  width: 100%;
+  background-color: var(--primary-color);
+  min-height: 660px;
+  color: #fff;
+}
+.prod{
+  display: flex;
+}
+.produtos figure{    
+  overflow-y: hidden;
+  position: relative;  
+  height: 217px;
+  transition: all 0.5s;
+  border-radius: 10px;
+}
+.produtos figure:hover {  
+  height: 350px;
+}
+.produtos figure:hover figcaption{  
+  bottom: 0;
+}
+.produtos figure figcaption p{
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.8;
+}
+.produtos figure figcaption{
+  position: absolute;
+  bottom: -50px;
+  color: 20px;
+  z-index: 23;
+  background: rgba(22, 29, 57, 0.5);
+  width: 100%;
+  padding: 10px;
+  border-radius: 20px 20px 0 0;
+  text-align: center;
+  font-weight: 700;  
+  transition: all 0.5s; 
+}
+
