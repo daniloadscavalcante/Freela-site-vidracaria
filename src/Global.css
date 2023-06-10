@@ -69,35 +69,42 @@ header{
   font-size: 20px;
   margin-left: 4px;
 }
-.intro{
-  
+.intro{  
   font-family: 'Rubik', sans-serif;
   line-height: 1.8;
   max-width: 600px;
   width: 100%;
   
   display: flex;
-  align-items: center;
+  align-items: center;  
+}
+.s-base{
+  width: 100%;
+  background-color: var(--primary-color);
+  min-height: 550px;
+  color: #fff;
   
 }
 .produtos{
-  width: 100%;
-  background-color: var(--primary-color);
-  min-height: 660px;
-  color: #fff;
-}
-.prod{
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;  
 }
 .produtos figure{    
-  overflow-y: hidden;
+  overflow: hidden;
   position: relative;  
+  width: 250px;
   height: 217px;
   transition: all 0.5s;
-  border-radius: 10px;
+  border-radius: 8px;
+  margin: 5px;
+  cursor: pointer;
 }
 .produtos figure:hover {  
   height: 350px;
+}
+.produtos figure img{
+  border-radius: 8px;
 }
 .produtos figure:hover figcaption{  
   bottom: 0;
