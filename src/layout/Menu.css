@@ -13,10 +13,10 @@
     font-weight: 600;
   }
   .menu a:hover{
-    color: var(--third-color);
+    color: var(--third-color)!important;
   }
   .menu a.active{
-    color: var(--third-color);
+    color: var(--third-color)!important;
   }
   /*Menu-Footer*/
   .menuFooter .menu-rodape{
@@ -33,6 +33,7 @@
     font-weight: 400;
     font-size: 14px;
     text-align: left;
+    padding: 8px 0;
   }
 
 @media only screen and (min-width: 750px) and (max-width:990px){
@@ -57,29 +58,39 @@
     }
     .menu{
         display: block;
-        position: absolute;
-        top: 76px;
+        position: fixed;
+        top: -297px;
         left: 0;
         width: 100%;
         z-index: 100;
-        height: auto;
-        background: rgba(255, 0, 0, 0.9);
+        height: auto;        
+        transition: all 0.3s;
+    }
+    .menuAtivo{
+        top: 76px;
+        background-color: var(--primary-color);
+    }
+    .menu li{        
+        padding: 0;
     }
     .menu li a{
         display: block;
-        text-align: center;
+        text-align: center!important;
+        padding: 15px;        
     }
-    .toggle{
-        border: 1px solid #fff;
+    .toggle{        
         margin: 0 10px;
         cursor: pointer;
+        
+        padding: 10px;
     }
+    
     .toggle .line{
         display: block;
         width: 40px;
         height: 3px;
         background-color: red;
-        margin: 6px 0;
+        margin: 10px 0;
         border-radius: 3px;        
     }
 }

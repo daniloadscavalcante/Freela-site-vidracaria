@@ -2,6 +2,7 @@
     height: 500px;    
     background: linear-gradient(to right, rgba(22, 29, 57, 0.6), rgba(22, 29, 57, 0.3)), url("../../assets/bannerHome.jpg");
     background-size: cover; 
+    padding-top: 76px;
 
     display: flex;  
     justify-content: center;

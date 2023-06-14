@@ -89,4 +89,29 @@ footer{
     .contato{
       padding-left: 30px!important;
     }
+    .center-footer .endereco{
+      max-width: 100%!important;
+      border: 1px solid red;
+      grid-column: 1/-1;
+      text-align: center;
+    }
+    .endereco > div{
+      justify-content: center;
+    }
+    .endereco address{
+      text-align: center;
+    }
+  }
+  @media only screen and (min-width: 380px) and (max-width: 749px){     
+    .center-footer > div{
+      max-width: 100%;
+      border: 1px solid red;
+      text-align: center;
+    }
+    .endereco > div{
+      justify-content: center;
+    }
+    .endereco address{
+      text-align: center;
+    }
   }

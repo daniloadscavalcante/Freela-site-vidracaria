@@ -34,7 +34,7 @@ export default function Home(){
     return (
         <main>            
             
-            <div>
+            
             <div className="banner">
                 <div className="blocoTexto">
                     <h1>Vidraçaria Oliveira</h1>
@@ -42,7 +42,7 @@ export default function Home(){
                     <p>Transforme sua visão em realidade com a nossa vidraçaria especializada, onde a excelência e a qualidade se unem para criar espaços elegantes e modernos, proporcionando beleza, segurança e sofisticação para o seu lar ou negócio.</p>
                 </div>  
             </div>
-            </div>
+            
             <p>Pagina Home</p>
             <Container>
                 <div className="intro">                    
@@ -104,10 +104,11 @@ export default function Home(){
                     <Card 
                     icone="/img/icone/valores.png"
                     titulo="valores"
-                    descricao="Honestidade, qualidade,integridade e inovação"
+                    descricao="Comprometimento em fornecer vidros e serviços de alta qualidade, garantindo a satisfação dos clientes e a durabilidade dos produtos."
                     />
+                   
                 </div>
-                <div>
+                <div className="img-valores">
                     <img src="/img/capa/img.png" alt=""/>
                 </div>                
             </Container>
