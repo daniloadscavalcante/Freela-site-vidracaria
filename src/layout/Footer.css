@@ -1,0 +1,92 @@
+footer{
+  width: 100%;
+  background-color: var(--primary-color);
+  min-height: 400px;
+  color: #fff;
+  padding-bottom: 30px; 
+}
+.center-footer{
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+    padding: 80px 10px;
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 15px;
+  }
+  .center-footer > div{    
+    padding: 10px;
+    max-width: 280px;  
+    width: 100%;
+  }
+  
+  .logo-rodape img{
+    max-width: 100%;
+  }
+  .center-footer .titulo-rodape{
+    font-weight: 600;
+    display: block;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+  }
+  .contato a{
+    display: block;
+    color: #fff;
+    padding: 2px 0;
+    font-size: 14px;
+  }
+  .contato svg{
+    color: #9BF1FD;
+    font-size: 15px;
+    margin-right: 5px;
+    position: relative;
+    top: 3px;
+  }
+  .contato a:nth-of-type(2) svg{    
+    font-size: 19px;    
+  }
+  .contato a:nth-of-type(3) svg{    
+    font-size: 16px;  
+    margin-left: 2px;  
+  }
+  .email{
+    word-wrap: break-word;
+  }
+  .rede-sociais{
+    margin: 2px 0;    
+  }
+  .rede-sociais span.titulo-rodape{
+    text-transform: initial;
+  }
+  .rede-sociais .fa{
+    display: inline-block;  
+    cursor: pointer; 
+  }
+  .rede-sociais .fa svg{
+    font-size: 20px;    
+  }
+  .endereco > div{
+    display: flex;
+  }
+  .endereco svg{
+    font-size: 15px;
+    color: #9BF1FD;
+    margin-right: 3px;
+  }
+  .endereco address{
+    font-style: normal;
+    text-align: left;
+    display: inline-block;
+    font-size: 14px;
+  }
+  .copy{
+    border-top: 2px solid var(--third-color);
+    text-align: center;
+  }
+
+  @media only screen and (min-width: 750px) and (max-width: 990px){
+    .contato{
+      padding-left: 30px!important;
+    }
+  }

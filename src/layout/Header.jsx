@@ -1,4 +1,5 @@
 import logo from '../assets/Logo.png';
+import Button from '../componentes/Button/Button';
 import Menu from './Menu'
 
 export default function Header(){
@@ -6,7 +7,7 @@ export default function Header(){
         <header>
         <div className="navbar">
             <img src={logo} alt="Vidraçaria oliveira"/>
-            <Menu />
+            <Menu button={<Button/>}/>
         </div>
     </header>
     )

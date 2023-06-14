@@ -1,0 +1,85 @@
+.menu{
+    display: flex;
+    align-items: center;
+    
+    height: 100%;
+  }
+  .menu li {
+    padding: 15px;
+  }
+  .menu li a{
+    color: #B1AEAE;
+    text-transform: uppercase;
+    font-weight: 600;
+  }
+  .menu a:hover{
+    color: var(--third-color);
+  }
+  .menu a.active{
+    color: var(--third-color);
+  }
+  /*Menu-Footer*/
+  .menuFooter .menu-rodape{
+    flex-direction: column;
+    align-items: flex-start;   
+    position: static;
+    
+  }
+  .menu-rodape li {
+    padding: 2px;
+  }
+  .menuFooter .menu-rodape li a{
+    color: var(--second-color); 
+    font-weight: 400;
+    font-size: 14px;
+    text-align: left;
+  }
+
+@media only screen and (min-width: 750px) and (max-width:990px){
+    .navbar{
+        margin: 0 20px
+    }
+    .menu li{
+        padding: 0 5px;
+    }
+    .menu li a{
+        font-size: 14px;
+    }
+}
+@media only screen and (min-width: 380px) and (max-width:749px){
+    .navbar{
+        margin: 0 20px;
+        
+        align-items: center;
+    }
+    .btnMenu{
+        display: none!important;
+    }
+    .menu{
+        display: block;
+        position: absolute;
+        top: 76px;
+        left: 0;
+        width: 100%;
+        z-index: 100;
+        height: auto;
+        background: rgba(255, 0, 0, 0.9);
+    }
+    .menu li a{
+        display: block;
+        text-align: center;
+    }
+    .toggle{
+        border: 1px solid #fff;
+        margin: 0 10px;
+        cursor: pointer;
+    }
+    .toggle .line{
+        display: block;
+        width: 40px;
+        height: 3px;
+        background-color: red;
+        margin: 6px 0;
+        border-radius: 3px;        
+    }
+}

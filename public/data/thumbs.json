@@ -1,0 +1,41 @@
+[
+    {
+        "image":"/img/thumbsGaleria/img-gal.jpg",
+        "alt": "varanda com telhado de vidro",
+        "style":"img-item"
+    },
+    {
+        "image":"/img/thumbsGaleria/img-gal2.jpg",
+        "alt": "espelhos no gardar roupas",
+        "style":"img-item"
+    },
+    {
+        "image":"/img/thumbsGaleria/img-gal3.jpg",
+        "alt": "portas de vidros",
+        "style":"img-item-middle"
+    },
+    {
+        "image":"/img/thumbsGaleria/img-gal4.jpg",
+        "alt": "espelhos no banheiro",
+        "style":"img-item"
+    },
+    {
+        "image":"/img/thumbsGaleria/img-gal5.jpg",
+        "alt": "porta de vidros em pias",
+        "style":"img-item-middle"
+    },
+    {
+        "image":"/img/thumbsGaleria/img-gal6.jpg",
+        "alt": "box no banheiro",
+        "style":"img-item-middle"
+    },
+    {
+        "image":"/img/thumbsGaleria/img-gal7.jpg",
+        "alt": "box e espelho no banheiro",
+        "style":"img-item"
+    },{
+        "image":"/img/thumbsGaleria/img-gal8.jpg",
+        "alt": "parede de academia fecha com esplhos",
+        "style":"img-item"
+    }    
+]

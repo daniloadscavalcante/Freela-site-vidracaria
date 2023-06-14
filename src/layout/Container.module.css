@@ -5,7 +5,21 @@
 
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;    
 }
 .column{
     flex-direction: column;
+    align-items: center;
+}
+.padd{
+    padding: 0 30px;
+}
+.thumbsHome-gal{
+    justify-content: center;
+    flex-wrap: wrap
+}
+@media only screen and (min-width: 750px) and (max-width: 980px){
+    .center{
+        justify-content: center;
+    }
 }

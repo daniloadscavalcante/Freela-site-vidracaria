@@ -1,19 +1,21 @@
-import {NavLink} from 'react-router-dom'
-import { BsArrowRight } from "react-icons/bs"
+import './Menu.css'
+import LinkMenu from './menu/LinkMenu'
 
-export default function Menu(){
+export default function Menu(props){
     return(
         <nav>
-            <ul className="menu">
-                <li><NavLink to="/">home</NavLink></li>
-                <li><NavLink to="/sobre-nos">sobre nós</NavLink></li>
-                <li><NavLink to="/servicos">serviços</NavLink></li>
-                <li><NavLink to="/projetos-realizados">projeto realizados</NavLink></li>
-                <li><NavLink to="/contato">contato</NavLink></li>
-                <li><NavLink to="https://google.com" target='_blank'>
-                    <button className="btn">Orçamento <BsArrowRight className='arrowButton' /></button>
-                </NavLink></li>
-                
+            <div className='toggle'>
+                <span className='line'></span>
+                <span className='line'></span>
+                <span className='line'></span>
+            </div>
+            <ul className={`${"menu"} ${props.customClass}`}>
+                <LinkMenu target="/" text="home"/>
+                <LinkMenu target="/sobre-nos" text="sobre nós"/>
+                <LinkMenu target="/servicos" text="serviços"/>
+                <LinkMenu target="/projetos-realizados" text="projeto realizados"/>
+                <LinkMenu target="/contato" text="contato"/>
+                <li>{props.button}</li>                
             </ul>
         </nav>
     )

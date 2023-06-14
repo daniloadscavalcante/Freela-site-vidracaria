@@ -9,9 +9,13 @@
   padding: 0;
   box-sizing: border-box;
 }
+html{
+  overflow-x: hidden;
+}
 html, body{
   font-family: 'Poppins', sans-serif;
   font-size: 15px;
+  
 }
 ul li{
   list-style: none;
@@ -21,10 +25,9 @@ a{
   transition: 0.3s;
 }
 header{
-  height: 79;
+  height: 76px;
   background-color: var(--primary-color);
 }
-
 
 .navbar{
   display: flex;
@@ -32,39 +35,10 @@ header{
   margin: 0 70px;
   padding: 5px 0;
 }
-.menu{
-  display: flex;
-  align-items: center;
-  
-  height: 100%;
-}
-.menu li {
-  padding: 15px;
-}
-.menu li a{
-  color: #B1AEAE;
-  text-transform: uppercase;
-  font-weight: 600;
-}
-.menu a:hover{
-  color: var(--third-color);
-}
-.menu a.active{
-  color: var(--third-color);
-}
-.btn{
-  padding: 8px 15px;
-  border: 1px solid var(--second-color);
-  color: var(--second-color);
-  background-color: transparent;
-  text-transform: uppercase;
-  font-weight: 600;
-  cursor: pointer;
 
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
+
+/*Fim*/
+
 .arrowButton{
   font-size: 20px;
   margin-left: 4px;
@@ -78,12 +52,18 @@ header{
   display: flex;
   align-items: center;  
 }
+.img-intro{
+  width: 400px;
+}
+.img-intro img{
+  max-width: 100%;
+}
 .s-base{
   width: 100%;
   background-color: var(--primary-color);
-  min-height: 550px;
+  min-height: 600px;
   color: #fff;
-  
+  padding-bottom: 30px;  
 }
 .produtos{
   display: flex;
@@ -126,5 +106,72 @@ header{
   text-align: center;
   font-weight: 700;  
   transition: all 0.5s; 
+}
+
+
+/*Thumbs galeria home*/
+.img-item, .img-item-middle{
+  width: 240px;
+  height: 154px;
+  margin: 10px 10px; 
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.img-item-middle img{  
+  max-width: 100%;
+  transition: all 0.3s;
+}
+.img-item-middle img:hover, .img-item img:hover{  
+  transform: scale(1.1);
+}
+.img-item img{
+  width: 100%;
+  position: relative;
+  top: -55%;
+  transition: all 0.3s;
+}
+.lightbox{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  background: rgba(22, 29, 57, 0.8);
+  z-index: 100;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.lightbox span{
+  position: absolute;
+  top: 0;
+  right: 30px;
+  color: #fff;
+  font-size: 50px;
+  font-weight: 400;
+  z-index: 100;  
+  cursor: pointer;
+  user-select: none;
+  
+}
+.btn-lightbox{
+  width: 100px;
+  display: block;
+  text-align: center;
+  font-size: 40px;
+  margin-top: 10px;
+  padding: 3px 10px;
+  color: #161D39;
+}
+.thumbs-gal{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;  
+}
+/*Fim thumbs-gal*/
+.iconeTeste{
+  color: #fff;
 }
 

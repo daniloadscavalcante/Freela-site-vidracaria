@@ -1,0 +1,65 @@
+.blocoDepo{
+    border: 1px solid white;
+    width: 250px;
+    margin: 0 30px;
+    border-radius: 10px;
+    padding: 25px 20px;
+    color: #fff;
+}
+.blocoDepoUser{    
+    font-weight: 700;    
+}
+.blocoDepo .depoimento{    
+    font-weight: 400;
+    font-size: 13px; 
+    position: relative;  
+    margin-top: 20px;
+}
+.blocoDepo .depoimento::before{
+    content:'“';
+    position: absolute;
+    top: -10px;
+    left: -8px;
+    font-size: 20px;
+}
+.blocoDepo .depoimento::after{
+    content:'“';
+    position: absolute;
+    bottom: 20px;
+    padding: 0 3px;
+    font-size: 20px;
+    height: 5px;
+}
+.blocoDepoStar{
+    display: block;
+    margin: 10px 0;
+    color: yellow;
+}
+.blocoDepoStar svg{
+    margin-right: 3px;
+}
+.blocoDepolinkExt{
+    color: #B9BABA;
+    font-size: 13px;    
+    padding: 5px 5px 5px 0;
+}
+.blocoDepolinkExt:hover{
+    color: #9BF1FD;   
+}
+/*custom slider*/
+.glider-contain{
+    box-shadow: 0 0px 2px 0px ;
+    padding: 30px 0 20px;
+}
+.glider-dot{
+    color: #9BF1FD; 
+    background-color: #161D39;
+    border: 1px solid #9BF1FD;
+    margin-top: 20px;
+}
+.glider-dot.active{
+    background-color: #9BF1FD;
+}
+.glider-dot:hover{
+    background: #9BF1FD;
+}

@@ -6,12 +6,12 @@ import './Slider.css'
 
 export default function SliderHome(){
     const settings = {
-        dots: true,
+        dots: false,
         infinite: false,
         speed: 500,
         slidesToShow: 1,
-        slidesToScroll: 1,
-        autoplay: true,
+        slidesToScroll: 0,
+        autoplay: false,
         autoplaySpeed: 3500,
 
       };

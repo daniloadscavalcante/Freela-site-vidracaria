@@ -4,4 +4,8 @@
     color: #fff;
     text-align: center;
     margin: 80px 0;
+    width: 100%;
+}
+.title-black{
+    color: #000;
 }

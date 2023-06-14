@@ -1,0 +1,29 @@
+.bloco{
+    margin-top: 60px;
+}  
+.card{
+    border: 1px solid #161D39;
+    display: flex;
+    align-items: center;
+    align-self: flex-end;
+    
+    max-width: 347px;
+    padding: 8px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+.icone{
+    display: inline-block;
+    padding-right: 10px;
+}
+.descritivo p{
+    font-size: 11px;
+    margin-top: 5px;
+}
+.titleCard{
+    color: #161D39;    
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;    
+}
