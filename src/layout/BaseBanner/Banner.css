@@ -1,0 +1,16 @@
+.bannerBase{
+    min-height: 332px;
+    border: 1px solid red;
+    background-color: #161D39;
+    margin-top: 53px;
+    
+    display: grid;
+    place-content: center;
+    color: #fff;
+    text-transform: uppercase;    
+}
+.bg{
+    background: linear-gradient(to bottom, rgba(22, 29, 57, 0.95), rgba(22, 29, 57, 0.95)), url("../../../public/img/banner/bannerbase.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;    
+}

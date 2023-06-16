@@ -12,6 +12,9 @@
     margin-bottom: 30px;
     border-radius: 10px;
 }
+.cardB-none{
+    border: none;
+}
 .icone{    
     margin-right: 10px;     
 }

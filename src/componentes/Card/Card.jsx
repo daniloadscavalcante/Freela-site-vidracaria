@@ -1,7 +1,7 @@
 import './style.css'
-export default function Card({icone, titulo, descricao, alt}){
+export default function Card({icone, titulo, descricao, alt, customClass}){
     return (
-        <section className='card'>
+        <section className={`card ${customClass}`}>
             <div className='icone'>
                 <img src={icone} alt={alt}/>            
             </div>
