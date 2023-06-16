@@ -30,11 +30,8 @@ export default function Home(){
 
     }, [])
 
-
     return (
-        <main>            
-            
-            
+        <main>        
             <div className="banner">
                 <div className="blocoTexto">
                     <h1>Vidraçaria Oliveira</h1>

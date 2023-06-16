@@ -15,6 +15,7 @@ export default function Footer(){
                 </div>
                 <div className='menuFooter'>
                    <Menu customClass="menu-rodape"                   
+                   showtoggle={false}
                    />
                 </div>
                 

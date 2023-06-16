@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import './Menu.css'
 import LinkMenu from './menu/LinkMenu'
+import Toggle from '../componentes/Toggle/Toggle'
 
 export default function Menu(props){
     
@@ -12,15 +13,9 @@ export default function Menu(props){
    function handlehideMenu(){
     setAtivo(false)
    }
-
-
     return(
         <nav>
-            <div className={`toggle ${ativo ? 'menuAtivo' : ''}`} onClick={handleToggle}>
-                <span className='line'></span>
-                <span className='line'></span>
-                <span className='line'></span>
-            </div>
+            {props.showtoggle && <Toggle ativo={ativo} onClick={handleToggle}/>}
             <ul className={`${"menu"} ${props.customClass} ${ativo ? 'menuAtivo' : ''}`} onClick={handlehideMenu} >
                 <LinkMenu target="/" text="home"/>
                 <LinkMenu target="/sobre-nos" text="sobre nós" />
