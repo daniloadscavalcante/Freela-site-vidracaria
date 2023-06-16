@@ -9,15 +9,15 @@ export default function Sobre(){
             <Banner titulo="sobre nós" bg="bg"/>
 
             <Container >
-                <div className="bloco-texto">
+                <div className="texto-sobre">
                     <h3>Sobre nós</h3>
                     <p>Desde 1971, a <strong>Vidraçaria Oliveira</strong> tem sido uma presença confiável e estabelecida no mercado de vidraçaria. Com mais de cinco décadas de atuação, a empresa construiu uma sólida reputação baseada em qualidade, excelência e compromisso com os clientes.</p>
                     <p>Com o passar dos anos, a Vidraçaria Oliveira expandiu suas operações, acompanhando as tendências do mercado e investindo em tecnologia e inovação. A empresa passou a oferecer uma ampla gama de serviços, incluindo instalação de janelas, portas, espelhos, divisórias de vidro e fechamentos de varandas, sempre mantendo os mais altos padrões de qualidade em cada projeto.</p>
-                    <p>A chave para o sucesso contínuo da Vidraçaria Oliveira tem sido sua equipe dedicada e altamente capacitada. Ao longo dos anos, a empresa atraiu e reteve profissionais talentosos, comprometidos em entregar resultados excepcionais aos clientes.</p>
-                    <p>Hoje, a Vidraçaria Oliveira é reconhecida como uma referência no setor, sendo sinônimo de qualidade e confiabilidade. Sua história de sucesso é um testemunho do compromisso com a excelência, da paixão pelo trabalho e do desejo de superar as expectativas dos clientes.</p>
+                    <p>A chave para o sucesso contínuo da Vidraçaria Oliveira tem sido sua equipe dedicada e altamente capacitada, hoje, a Vidraçaria Oliveira é reconhecida como uma referência no setor.</p>
+                    
                 </div>
 
-               <div className="bloco">
+               <div className="bloco-valores">
                     <Card 
                     icone="/img/icone/missao.png"
                     titulo="Missao"
@@ -50,8 +50,7 @@ export default function Sobre(){
                 <div className="qualidade">                    
                     <h2>Excelência, Qualidade e Honestidade</h2>
                     <p>Mais de 50 anos realizando sonhos.<br/>
-                    Entre contato e venha realizar o seu com a vidraçaria oliveira</p>
-                    
+                    Entre contato e venha realizar o seu com a vidraçaria oliveira</p>    
                 </div>
                 <div className="img-intro">
                     <img src={img} alt="imagem de espelho"/>

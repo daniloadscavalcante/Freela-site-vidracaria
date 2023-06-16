@@ -1,4 +1,3 @@
-import SliderHome from "../componentes/SliderHome/SliderHome"
 import Container from "../layout/Container"
 import TitleCenter from '../componentes/TitleCenter/TitleCenter'
 import { Link } from "react-router-dom"
@@ -87,7 +86,7 @@ export default function Home(){
             </section>
 
             <Container customClass="padd">
-                <div className="bloco">
+                <div className="bloco-valores">
                     <Card 
                     icone="/img/icone/missao.png"
                     titulo="Missao"

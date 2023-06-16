@@ -47,6 +47,51 @@ header{
   font-size: 20px;
   margin-left: 4px;
 }
+.banner{
+  height: 500px;    
+  background: linear-gradient(to right, rgba(22, 29, 57, 0.6), rgba(22, 29, 57, 0.3)), url("../public/img/banner/bannerHome.jpg");
+  background-size: cover; 
+  padding-top: 76px;
+
+  display: flex;  
+  justify-content: center;
+  align-items: center;
+  
+}
+.blocoTexto{
+  width: 600px;
+  text-align: center;
+  color: #fff;   
+}
+.blocoTexto p:nth-of-type(2){
+  font-size: 12px;
+  margin: 10px;
+  color: #e4e3e3;
+  
+}
+.blocoTexto h1{
+  animation: TitleMain 1s;
+  position: relative;
+}
+.blocoTexto p {
+  animation: texto 3.5s ;    
+}
+@keyframes TitleMain{
+  from{
+     top: 100px;       
+  }
+  to {
+      top: 0;        
+  }
+}
+@keyframes texto{
+  from{
+     opacity: 0;       
+  }
+  to {
+      opacity: 1;         
+  }
+}
 .intro{  
   font-family: 'Rubik', sans-serif;
   line-height: 1.8;
@@ -114,9 +159,13 @@ header{
   font-weight: 700;  
   transition: all 0.5s; 
 }
+.bloco-valores{
+  margin-top: 29px;
+} 
 .img-valores{
   max-width: 400px;
   width: 100%;
+  margin-top: 28px;
 }
 
 /*Thumbs galeria home*/
@@ -194,9 +243,8 @@ header{
 }
 
 /*sobre*/
-.bloco-texto{
-  max-width: 620px;
-  font-family: 'Rubik';
+.texto-sobre{
+  max-width: 620px;  
   line-height: 150.5%;
   
   background-image: url("../public/img/Dot.png");
@@ -204,9 +252,10 @@ header{
   background-position: bottom left;
   padding: 30px 0px 45px 46px;
   text-align: left;
+  align-self: flex-start;
 }
-.bloco-texto p{
-  margin-top: 10px;
+.texto-sobre p{
+  margin-top: 13px;
 }
 .sobreProfissionais{
   background: linear-gradient(to bottom, rgba(22, 29, 57, 0.9), rgba(22, 29, 57, 0.9)), url("../public/img/capa/profissionais.jpg");

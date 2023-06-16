@@ -1,6 +1,4 @@
-.bloco{
-    margin-top: 60px;
-}  
+ 
 .card{
     border: 1px solid #161D39;
     display: flex;
@@ -9,7 +7,7 @@
     
     max-width: 347px;
     padding: 8px;
-    margin-bottom: 30px;
+    margin-bottom: 14px;
     border-radius: 10px;
 }
 .cardB-none{
@@ -18,12 +16,11 @@
 .icone{    
     margin-right: 10px;     
 }
-.icone img{      
-    max-width: 100%!important;
-    width: 260px;    
+.icone img{          
+    width: 196px;    
 }
 .descritivo p{
-    font-size: 11px;
+    font-size: 13px;
     margin-top: 5px;
 }
 .titleCard{
@@ -43,5 +40,8 @@
     }
     .card{        
         max-width: 371px;        
+    }
+    .icone img{          
+        width: 260px;    
     }
 }
