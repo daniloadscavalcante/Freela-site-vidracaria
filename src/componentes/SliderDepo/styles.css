@@ -63,3 +63,12 @@
 .glider-dot:hover{
     background: #9BF1FD;
 }
+
+@media only screen and (max-width: 768px){
+    .blocoDepo{
+        margin: 0 8px;
+    }
+    .glider-track{
+        padding-bottom: 20px;
+    }
+}

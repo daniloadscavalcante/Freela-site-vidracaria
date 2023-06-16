@@ -80,9 +80,10 @@ footer{
     display: inline-block;
     font-size: 14px;
   }
-  .copy{
-    border-top: 2px solid var(--third-color);
+  .copy{    
     text-align: center;
+    font-size: 13px;
+    padding-top: 15px;
   }
 
   @media only screen and (min-width: 750px) and (max-width: 990px){
@@ -90,8 +91,7 @@ footer{
       padding-left: 30px!important;
     }
     .center-footer .endereco{
-      max-width: 100%!important;
-      border: 1px solid red;
+      max-width: 100%!important;      
       grid-column: 1/-1;
       text-align: center;
     }
@@ -103,18 +103,21 @@ footer{
     }
   }
   @media only screen and (min-width: 380px) and (max-width: 749px){     
+    .center-footer{
+      padding: 80px 10px 0px;
+    }
     .center-footer > div{
-      max-width: 100%;
-      border: 1px solid red;
+      max-width: 100%;      
       text-align: center;
+      border-bottom: 1px solid var(--third-color);
     }
     .endereco > div{
       justify-content: center;
+      border-bottom: 0!important;
+      padding-bottom: 30px;
     }
     .endereco address{
       text-align: center;
     }
-    .toggle{
-      
-    }
+    
   }
