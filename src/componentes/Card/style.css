@@ -20,7 +20,7 @@
 }
 .icone img{      
     max-width: 100%!important;
-    width: 150px;    
+    width: 260px;    
 }
 .descritivo p{
     font-size: 11px;
@@ -36,5 +36,12 @@
 @media only screen and (max-width:760px){
     .descritivo{
         text-align: left;
+    }
+    .descritivo p{
+        font-size: 15px;
+        margin-top: 5px;
+    }
+    .card{        
+        max-width: 371px;        
     }
 }

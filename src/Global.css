@@ -222,6 +222,7 @@ header{
   max-width: 800px;
   margin: 0 auto;
   color: var(--second-color);
+  padding-bottom:20px ;
 }
 .sobreProfissionais .profissionais h2{
   margin: 20px 0;
@@ -233,4 +234,13 @@ header{
 }
 .qualidade h2{
   font-size: 36px;
+}
+@media only screen and (max-width:768px){
+  h2{
+    font-size: 24px;
+  }
+  .qualidade h2{
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
 }
