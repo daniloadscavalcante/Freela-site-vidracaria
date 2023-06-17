@@ -4,10 +4,9 @@ import Card from '../componentes/Card/Card'
 import img from '../assets/qualidade.png'
 export default function Sobre(){
     return (
-        <main>
-            <p>Pagina Sobre nós</p>
+        <main>            
             <Banner titulo="sobre nós" bg="bg"/>
-
+            <p>Pagina Sobre nós</p>
             <Container >
                 <div className="texto-sobre">
                     <h3>Sobre nós</h3>
