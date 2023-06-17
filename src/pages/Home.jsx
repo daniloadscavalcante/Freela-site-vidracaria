@@ -42,8 +42,8 @@ export default function Home(){
             <p>Pagina Home</p>
             <Container>
                 <div className="intro">                    
-                    <p>A EMPÓRIO GLASS está localizada em São Paulo e foi fundada em 2010, atuando no mercado com profissionalismo no segmento de vidros em geral, seja para a construção civil e decoração. <br/><br/>
-                    A Empresa trabalha com os maiores fabricantes do mercado e está preparada para atender seu projeto com alto nível de satisfação, com variedades de produtos, qualidade e confiança. Seu alvo é sempre superar a expectativa dos clientes, proporcionando a sua obra: sofisticação, estilo, segurança e com melhor Custo x Benefício.</p>
+                    <p>Na <strong>Vidraçaria Oliveira</strong>, valorizamos a excelência em cada projeto que realizamos. Nossa equipe de profissionais altamente qualificados e experientes é especializada em trabalhar com vidro, combinando habilidades técnicas e um olhar artístico para criar resultados impressionantes. <br/><br/>
+                    Venha nos visitar e descubra por que somos a escolha preferida quando se trata de vidraçaria. Na Vidraçaria Oliveira, você encontrará qualidade, expertise e um compromisso inabalável com a excelência em cada detalhe. Estamos ansiosos para atendê-lo e sermos seu parceiro confiável em todas as suas necessidades de vidraçaria.</p>
                 </div>
                 <div className="img-intro">
                     <img src={imgIntro} alt="imagem de espelho"/>

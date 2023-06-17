@@ -30,9 +30,8 @@ header{
   width: 100%;
   height: 76px;
   background-color: var(--primary-color);
-  box-shadow: 0px 1px 3px 0px rgba(155, 241, 253, 0.3);
+  box-shadow: 0px 3px 0px rgba(155, 241, 253, 0.3);
 }
-
 .navbar{
   display: flex;
   justify-content: space-between;
@@ -175,7 +174,7 @@ header{
   justify-content: center;  
   padding: 0 20px;
 }
-.img-item, .img-item-middle{
+.img-item, .img-item-middle, .img-item2{
   width: 240px;
   height: 154px;
   margin: 10px 10px; 
@@ -284,6 +283,19 @@ header{
 .qualidade h2{
   font-size: 36px;
 }
+.projetosRealizados{
+  text-align: center;
+  margin-top: 6rem;
+  padding: 0 22px;
+}
+.img-itemCustom{
+  width: 185px;
+  height: 185px;
+  margin: 0.5px;  
+}
+.img-itemCustom img{
+  position: static;
+}
 @media only screen and (max-width:768px){
   h2{
     font-size: 24px;
@@ -291,5 +303,13 @@ header{
   .qualidade h2{
     font-size: 24px;
     margin-bottom: 20px;
+  }
+}
+@media only screen and (max-width:600px){
+  .thumbs-gal .img-itemCustom{
+    width: 100%;
+    height: 300px;
+    margin: 5px 0;
+    border-radius: 5px 
   }
 }
