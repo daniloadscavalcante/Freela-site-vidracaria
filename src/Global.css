@@ -309,10 +309,10 @@ main{
 .s_contato{  
   max-width: 1000px;
   margin: 6rem auto;
+  padding: 0 20px;
 
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  justify-content: space-between;  
   flex-wrap: wrap;
 }
 .s_contato .s_texto{
@@ -333,7 +333,7 @@ main{
   
   max-width: 255px;
   width: 100%;  
-  margin-top: 20px;
+  margin: 20px 0;
 }
 .s_contato .s_texto .canais div.icones{  
   max-width: 56px;
@@ -351,7 +351,7 @@ main{
   font-weight: 600;
 }
 .formulario{  
-  max-width: 440px;
+  max-width: 450px;
   width: 100%;
   padding: 0 5px;  
 }
@@ -359,7 +359,7 @@ main{
   display: block;
   width: 100%;
   padding: 10px;
-  margin-bottom: 20px;
+  margin-bottom: 16px;
   border-radius: 2px;
   outline-color: var(--primary-color);
   border: 1px solid #B1B0B0;
@@ -390,6 +390,21 @@ main{
     margin-bottom: 20px;
   }
 }
+@media only screen and (max-width:768px){
+  .s_contato{
+    justify-content: center;
+  }
+  .s_contato .s_texto{
+    max-width: 450px;
+    width: 100%;
+    text-align: center;
+  }
+  .s_contato .s_texto .canais{
+    margin: 20px auto;
+    text-align: left;
+  }
+}
+
 @media only screen and (max-width:600px){
   .thumbs-gal .img-itemCustom{
     width: 100%;
