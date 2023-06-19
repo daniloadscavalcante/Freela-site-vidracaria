@@ -1,86 +1,4 @@
-.backImg{
-    background-image: url('../assets/background.png');
-    background-position: bottom right;
-    background-size: cover;
-    background-repeat: no-repeat;
-    min-height: 935px;
-    border-bottom: 1px solid var(--third-color);
-    width: 100%;
-}
-.teste{
-    max-width: 1000px;
-    margin: auto;
-   padding: 7rem 0;
-}
-.thumbsServicos{
-    display: flex;
-    flex-wrap: wrap; 
-    margin-top: 30px;  
-}
-.thumb-item{
-    max-width: 140px;
-    height: 140px;
-    width: 100%;
-    border-radius: 50%;
-    border: 3px solid var(--third-color);
-    overflow: hidden;
-    margin-right: 30px;
-}
-.thumb-item img{    
-    width: 100%;
-}
-.listServico{
-    color: var(--primary-color);
-    font-weight: 600;  
-}
-.listServico li{
-    position: relative;
-    margin-bottom: 13px;
-    padding: 0 5px;
-}
-.listServico li::after {
-    content: "\2022";
-    margin-right: 5px;
-    font-size: 33px;
-    position: absolute;
-    left: -15px;
-    top: -13px;
-  }
-  
-.btnServico{
-    background-color: var(--third-color);
-    color: var(--primary-color);
-    border: 1px solid;
-    border-image: linear-gradient(to right, #161D39, #99EDF8)1;
-    padding: 9px 25px;
-    font-weight: 600;    
-}
-.teste2{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-    margin: 60px 0;
-    padding: 0 20px;
-}
-.s-banner h2{
-    color: var(--third-color);
-    text-align: center;
-    font-size: 20px;
-}
-.s-banner{
-    background-image: url("../../public/img/Dot\ Grid.svg");
-    background-position: bottom left;
-    background-repeat: no-repeat;
-    padding: 30px 0px 40px 46px;
-}
-/*Custom slider*/
-.slick-slider{
-    max-width: 300px;
-}
-.slick-slide img{
-    border-radius: 8px;
-}
+
 @media only screen and (max-width:1200px){
     .backImg{
         background-image: url('../assets/backgroundMobile.png');        
@@ -92,13 +10,16 @@
         background-image: url('../assets/backgroundMobile.png');        
         background-size: 100% 100%;
     }
+    .prevServico p{
+        text-align: center;
+    }
     .listServico li{        
         color: var(--primary-color);        
     }
     .listServico{       
         padding-left: 10px;
     }
-    .thumbsServicos{
+    .prevThumb{
         justify-content: center;
     }
     .thumb-item{
@@ -112,7 +33,7 @@
     .thumb-item{
         margin-right: 10px;
     }
-    .s-banner{
+    .sliderServicos{
         width: 320px;
         padding: 30px 0px 22px 29px;
     }

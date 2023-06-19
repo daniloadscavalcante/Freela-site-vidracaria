@@ -49,7 +49,7 @@ export default function Home(){
                     <img src={imgIntro} alt="imagem de espelho"/>
                 </div>
             </Container>
-            <section className="s-base">
+            <section className="s-base s-baseCards-baseCards">
                 <Container customClass="column">
                     <TitleCenter titulo="Principais produtos"/>
                     <div className="produtos">

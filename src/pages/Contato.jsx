@@ -1,4 +1,5 @@
 
+import Button from '../componentes/Button/Button'
 import Banner from '../layout/BaseBanner/Banner'
 export default function Contato(){
     return (
@@ -44,8 +45,8 @@ export default function Contato(){
                     <input type="tel" placeholder='Telefone' />
                     <input type="tel" placeholder='Celular*' required/>
                     <input type="text" placeholder='Assunto*' required/>
-                    <textarea placeholder='Digite sua Mensagem* required'></textarea>
-                    <button type='submit' className='btnEnviar'>Enviar</button>
+                    <textarea placeholder='Digite sua Mensagem* required'></textarea>                    
+                    <Button texto="Enviar" customClass="btnForm" svg={false}/>
                 </form>
             </section>
         </main>

@@ -12,7 +12,7 @@ export default function Header(){
         <div className="navbar">
             <img src={logo} alt="Vidraçaria oliveira"/>
             <Menu 
-            button={<Button/>}
+            button={<Button texto="Orçamento" url="http://wa.me/5511981488211" svg={true}/>}
             showtoggle={true}         
             />
             

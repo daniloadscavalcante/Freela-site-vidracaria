@@ -7,6 +7,7 @@ import img2 from '../assets/thumbServico2.jpg'
 import img3 from '../assets/thumbServico3.jpg'
 import img4 from '../assets/thumbServico4.jpg'
 import './servico.css'
+import Button from "../componentes/Button/Button";
 
 export default function Servicos(){
 
@@ -26,9 +27,9 @@ export default function Servicos(){
             <Banner titulo="serviços" bg="bg"/>
             
             <div className='backImg'>
-            <section className='teste'>                
+            <section className='prevServico'>                
                 <p>Conheça alguns dos nossos serviços</p>
-                <div className='thumbsServicos'>
+                <div className='prevThumb'>
                     <div className='thumb-item'>
                         <img src={img4} alt=""/>
                     </div>
@@ -43,7 +44,7 @@ export default function Servicos(){
                     </div>
                 </div>
 
-                <div className='teste2'>
+                <div className='servicos'>
                     <ul className='listServico'>
                         <li>Box</li>
                         <li>Vidro Temperado</li>
@@ -53,9 +54,10 @@ export default function Servicos(){
                         <li>Cobertura de Vidros</li>
                         <li>Espelhos</li>
                         <li>Guarda Corpo</li>
-                        <button className='btnServico'>Saiba mais</button>
+                        
+                        <Button texto="Saiba mais" url="http://wa.me/5511981488211" customClass="btnCustom" svg={true}/>
                     </ul>
-                    <div className='s-banner'>
+                    <div className='sliderServicos'>
                         
                         <div>
                             <h2>Espelhos com Design<br/> unicos</h2>
