@@ -47,10 +47,9 @@
         font-size: 14px;
     }
 }
-@media only screen and (min-width: 380px) and (max-width:749px){
+@media only screen and (min-width: 360px) and (max-width:749px){
     .navbar{
-        margin: 0 20px;
-        
+        margin: 0 20px;        
         align-items: center;
     }
     .btnMenu{
@@ -67,7 +66,7 @@
         transition: all 0.3s;
     }
     .menuAtivo{
-        top: 76px;
+        top: 74px;
         background-color: var(--primary-color);
     }
     .menu li{        

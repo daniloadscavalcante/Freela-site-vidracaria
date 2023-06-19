@@ -5,12 +5,10 @@ export default function Contato(){
         <main>
             <Banner titulo="Contato"
             bg="bg"/>
-            <p>Pagina Contato</p>
-
-
+            
             <section className="s_titulo">
                 <h2>FORMULARIO DE CONTATO</h2>
-                <p>Nossa equipe está pronta para lhe oferecer um atendimento personalizado</p>
+                <p>Nossa equipe está pronta para lhe oferecer um <br/>atendimento personalizado</p>
             </section>
 
             <section className='s_contato'>
@@ -41,13 +39,13 @@ export default function Contato(){
                 </div>
 
                 <form action="" className='formulario'>
-                    <input type="text" placeholder='Nome Completo*' />
+                    <input type="text" placeholder='Nome Completo*' required/>
                     <input type="email" placeholder='Email' />
                     <input type="tel" placeholder='Telefone' />
-                    <input type="tel" placeholder='Celular*' />
-                    <input type="text" placeholder='Assunto*' />
-                    <textarea placeholder='Digite sua Mensagem*'></textarea>
-                    <button className='btnEnviar'>Enviar</button>
+                    <input type="tel" placeholder='Celular*' required/>
+                    <input type="text" placeholder='Assunto*' required/>
+                    <textarea placeholder='Digite sua Mensagem* required'></textarea>
+                    <button type='submit' className='btnEnviar'>Enviar</button>
                 </form>
             </section>
         </main>

@@ -337,8 +337,7 @@ main{
 }
 .s_contato .s_texto .canais div.icones{  
   max-width: 56px;
-  width: 100%;
-  margin-right: 10px;
+  width: 100%;  
 }
 .s_contato .s_texto .canais_titulo{
   font-weight: 600;
@@ -380,6 +379,9 @@ main{
   font-weight: 600;
   padding: 10px 35px;
   cursor: pointer;
+  width: 150px;
+  margin: auto;
+  display: block;
 }
 @media only screen and (max-width:768px){
   h2{
@@ -391,6 +393,9 @@ main{
   }
 }
 @media only screen and (max-width:768px){
+  .s_titulo{
+    display: none;
+  }
   .s_contato{
     justify-content: center;
   }
@@ -402,6 +407,9 @@ main{
   .s_contato .s_texto .canais{
     margin: 20px auto;
     text-align: left;
+  }
+  .formulario{
+    margin-top: 30px;
   }
 }
 
