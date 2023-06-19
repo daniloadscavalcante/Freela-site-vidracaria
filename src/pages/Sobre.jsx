@@ -6,7 +6,7 @@ export default function Sobre(){
     return (
         <main>            
             <Banner titulo="sobre nós" bg="bg"/>
-            <p>Pagina Sobre nós</p>
+            
             <Container >
                 <div className="texto-sobre">
                     <h3>Sobre nós</h3>

@@ -23,8 +23,7 @@ export default function Projetos(){
             <Banner 
             titulo="Projetos realizados"
             bg="bg"
-            />
-            <p>Pagina Projetos realizados</p>
+            />            
             <section className="projetosRealizados">
                 <h2>Conheça nossos projetos já realizados</h2>
                 <p>Projetos com qualidade e deginers inovadores</p>

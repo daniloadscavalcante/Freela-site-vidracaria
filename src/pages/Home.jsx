@@ -37,9 +37,8 @@ export default function Home(){
                     <p>Realizando projetos desde 1971</p>
                     <p>Transforme sua visão em realidade com a nossa vidraçaria especializada, onde a excelência e a qualidade se unem para criar espaços elegantes e modernos, proporcionando beleza, segurança e sofisticação para o seu lar ou negócio.</p>
                 </div>  
-            </div>
+            </div>            
             
-            <p>Pagina Home</p>
             <Container>
                 <div className="intro">                    
                     <p>Na <strong>Vidraçaria Oliveira</strong>, valorizamos a excelência em cada projeto que realizamos. Nossa equipe de profissionais altamente qualificados e experientes é especializada em trabalhar com vidro, combinando habilidades técnicas e um olhar artístico para criar resultados impressionantes. <br/><br/>
