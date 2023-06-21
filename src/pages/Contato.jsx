@@ -1,5 +1,5 @@
+import Form from '../componentes/Form/Form'
 
-import Button from '../componentes/Button/Button'
 import Banner from '../layout/BaseBanner/Banner'
 export default function Contato(){
     return (
@@ -37,17 +37,10 @@ export default function Contato(){
                             <p>Whatsapp -(11) 92138-9873</p>
                         </div>
                     </div>
+                    
                 </div>
-
-                <form action="" className='formulario'>
-                    <input type="text" placeholder='Nome Completo*' required/>
-                    <input type="email" placeholder='Email' />
-                    <input type="tel" placeholder='Telefone' />
-                    <input type="tel" placeholder='Celular*' required/>
-                    <input type="text" placeholder='Assunto*' required/>
-                    <textarea placeholder='Digite sua Mensagem* required'></textarea>                    
-                    <Button texto="Enviar" customClass="btnForm" svg={false}/>
-                </form>
+                <Form/>
+                
             </section>
         </main>
     )
