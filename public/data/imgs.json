@@ -1,75 +1,75 @@
 {
     "galeria": [
         {
-            "url": "/img/galeria/img1.jpg",
+            "url": "/img/galeria/img1.webp",
             "alt": "teste do alt"
         },
         {
-            "url": "/img/galeria/img2.jpg",
+            "url": "/img/galeria/img2.webp",
             "alt": "teste do alt2"
         },
         {
-            "url": "/img/galeria/img3.jpg",
+            "url": "/img/galeria/img3.webp",
             "alt": "teste do alt"
         },
         {
-            "url": "/img/galeria/img4.jpg",
+            "url": "/img/galeria/img4.webp",
             "alt": "teste do alt"
         },
         {
-            "url": "/img/galeria/img5.jpg",
+            "url": "/img/galeria/img5.webp",
             "alt": "teste do alt"
         },
         {
-            "url": "/img/galeria/img6.jpg",
+            "url": "/img/galeria/img6.webp",
             "alt": "teste do alt"
         },
         {
-            "url": "/img/galeria/img7.jpg",
+            "url": "/img/galeria/img7.webp",
             "alt": "teste do alt"
         },
         {
-            "url": "/img/galeria/img8.jpg",
+            "url": "/img/galeria/img8.webp",
             "alt": "teste do alt"
         },
         {
-            "url": "/img/galeria/img9.jpg",
+            "url": "/img/galeria/img9.webp",
             "alt": "teste do alt"
         },
         {
-            "url": "/img/galeria/img10.jpg",
+            "url": "/img/galeria/img10.webp",
             "alt": "teste do alt"
         },
         {
-            "url": "/img/galeria/img11.jpg",
+            "url": "/img/galeria/img11.webp",
             "alt": "teste do alt"
         },
         {
-            "url": "/img/galeria/img12.jpg",
+            "url": "/img/galeria/img12.webp",
             "alt": "teste do alt"
         },
         {
-            "url": "/img/galeria/img13.jpg",
+            "url": "/img/galeria/img13.webp",
             "alt": "teste do alt"
         },
         {
-            "url": "/img/galeria/img14.jpg",
+            "url": "/img/galeria/img14.webp",
             "alt": "teste do alt"
         },
         {
-            "url": "/img/galeria/img15.jpg",
+            "url": "/img/galeria/img15.webp",
             "alt": "teste do alt"
         },
         {
-            "url": "/img/galeria/img16.jpg",
+            "url": "/img/galeria/img16.webp",
             "alt": "teste do alt"
         },
         {
-            "url": "/img/galeria/img17.jpg",
+            "url": "/img/galeria/img17.webp",
             "alt": "teste do alt"
         },
         {
-            "url": "/img/galeria/img18.jpg",
+            "url": "/img/galeria/img18.webp",
             "alt": "teste do alt"
         }
     ]

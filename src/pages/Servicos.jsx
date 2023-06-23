@@ -2,10 +2,10 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
 import Banner from '../layout/BaseBanner/Banner'
-import img from '../assets/thumbServico.jpg'
-import img2 from '../assets/thumbServico2.jpg'
-import img3 from '../assets/thumbServico3.jpg'
-import img4 from '../assets/thumbServico4.jpg'
+import img from '../assets/thumbServico.webp'
+import img2 from '../assets/thumbServico2.webp'
+import img3 from '../assets/thumbServico3.webp'
+import img4 from '../assets/thumbServico4.webp'
 import './servico.css'
 import Button from "../componentes/Button/Button";
 

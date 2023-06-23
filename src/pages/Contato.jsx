@@ -20,7 +20,7 @@ export default function Contato(){
 
                     <div className='canais'>
                         <div className='icones'>
-                            <img src="/img/icone/mdi_clock-outline.png" alt="icone relogio"/>
+                            <img src="/img/icone/mdi_clock-outline.svg" alt="icone relogio"/>
                         </div>
                         <div className='horario'>
                             <span className='canais_titulo'>Horário de Atendimento</span>
@@ -29,7 +29,7 @@ export default function Contato(){
                     </div>
                     <div className='canais'>
                         <div className='icones'>
-                            <img src="/img/icone/atendente.png" alt="icone relogio"/>
+                            <img src="/img/icone/atendente.svg" alt="icone relogio"/>
                         </div>
                         <div className='atendimento'>
                             <span className='canais_titulo'>Atendimento</span>

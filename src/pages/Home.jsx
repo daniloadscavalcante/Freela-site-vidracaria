@@ -4,11 +4,11 @@ import { Link } from "react-router-dom"
 import { useEffect, useState } from "react"
 import { FaAngleDown } from "react-icons/fa";
 import '../componentes/Card/style.css'
-import imgIntro from '../assets/capaIntro.png'
-import imgbox from '../assets/imgbox.jpg'
-import produto2 from '../assets/produto2.jpg'
-import produto3 from '../assets/produto3.jpg'
-import produto4 from '../assets/produto4.jpg'
+import imgIntro from '../assets/capaIntro.webp'
+import imgbox from '../assets/imgbox.webp'
+import produto2 from '../assets/produto2.webp'
+import produto3 from '../assets/produto3.webp'
+import produto4 from '../assets/produto4.webp'
 import Card from "../componentes/Card/Card"
 import Slider from "../componentes/SliderDepo/Slider"
 
@@ -88,23 +88,26 @@ export default function Home(){
                 <div className="bloco-valores">
                     <Card 
                     icone="/img/icone/missao.png"
+                    alt="icone missao"
                     titulo="Missao"
                     descricao="Fornecer produtos e serviços de vidraçaria de alta qualidade, atendendo às necessidades e expectativas de nossos clientes."
                     />
                     <Card 
                     icone="/img/icone/visao.png"
+                    alt="icone visao"
                     titulo="visão"
                     descricao="Ser reconhecida como a principal vidraçaria da região, destacando-se pela excelência em qualidade, inovação e atendimento ao cliente. "
                     />
                     <Card 
                     icone="/img/icone/valores.png"
+                    alt="icone valores"
                     titulo="valores"
                     descricao="Comprometimento em fornecer vidros e serviços de alta qualidade, garantindo a satisfação dos clientes e a durabilidade dos produtos."
                     />
                    
                 </div>
                 <div className="img-valores">
-                    <img src="/img/capa/img.png" alt=""/>
+                    <img src="/img/capa/img.webp" alt="imagem de um box"/>
                 </div>                
             </Container>
 
@@ -128,7 +131,7 @@ export default function Home(){
                 <span onClick={()=> setFile(null)}>&times;</span>
                         <img src={file.image} alt=""/>
                     </div>:null }
-                <Link to="/projetos-realizados" className="btn-lightbox"><FaAngleDown/></Link>
+                <Link to="/projetos-realizados" aria-label="botão que redireciona para pagina projetos" className="btn-arrow-down"><FaAngleDown/></Link>
             </Container>
             
             

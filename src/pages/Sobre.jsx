@@ -1,7 +1,7 @@
 import Banner from "../layout/BaseBanner/Banner";
 import Container from "../layout/Container"
 import Card from '../componentes/Card/Card'
-import img from '../assets/qualidade.png'
+import img from '../assets/qualidade.webp'
 export default function Sobre(){
     return (
         <main>            
@@ -19,18 +19,21 @@ export default function Sobre(){
                <div className="bloco-valores">
                     <Card 
                     icone="/img/icone/missao.png"
+                    alt="icone missao"
                     titulo="Missao"
                     descricao="Fornecer produtos e serviços de vidraçaria de alta qualidade, atendendo às necessidades e expectativas de nossos clientes."
                     customClass="cardB-none"
                     />
                     <Card 
                     icone="/img/icone/visao.png"
+                    alt="icone visao"
                     titulo="visão"
                     descricao="Ser reconhecida como a principal vidraçaria da região, destacando-se pela excelência em qualidade, inovação e atendimento ao cliente. "
                     customClass="cardB-none"
                     />
                     <Card 
                     icone="/img/icone/valores.png"
+                    alt="icone valores"
                     titulo="valores"
                     descricao="Comprometimento em fornecer vidros e serviços de alta qualidade, garantindo a satisfação dos clientes e a durabilidade dos produtos."
                     customClass="cardB-none"

@@ -47,7 +47,7 @@ main{
 
 .banner{
   height: 500px;    
-  background: linear-gradient(to right, rgba(22, 29, 57, 0.6), rgba(22, 29, 57, 0.3)), url("../public/img/banner/bannerHome.jpg");
+  background: linear-gradient(to right, rgba(22, 29, 57, 0.6), rgba(22, 29, 57, 0.3)), url("../public/img/banner/bannerHome.webp");
   background-size: cover; 
   padding-top: 76px;
 
@@ -215,7 +215,7 @@ main{
   cursor: pointer;
   user-select: none;  
 }
-.btn-lightbox{
+.btn-arrow-down{
   width: 100px;
   display: block;
   text-align: center;
@@ -225,14 +225,12 @@ main{
   color: #161D39;
 }
 
-
-
 /*sobre*/
 .texto-sobre{
   max-width: 620px;  
   line-height: 150.5%;
   
-  background-image: url("../public/img/Dot.png");
+  background-image: url("../public/img/Dot\ GridP.svg");
   background-repeat: no-repeat;
   background-position: bottom left;
   padding: 30px 0px 45px 46px;
@@ -243,7 +241,7 @@ main{
   margin-top: 13px;
 }
 .sobreProfissionais{
-  background: linear-gradient(to bottom, rgba(22, 29, 57, 0.9), rgba(22, 29, 57, 0.9)), url("../public/img/capa/profissionais.jpg");
+  background: linear-gradient(to bottom, rgba(22, 29, 57, 0.9), rgba(22, 29, 57, 0.9)), url("../public/img/capa/profissionais.webp");
   background-size: cover;
   background-repeat: no-repeat; 
   min-height: 450px;

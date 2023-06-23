@@ -9,7 +9,7 @@
     text-transform: uppercase;    
 }
 .bg{
-    background: linear-gradient(to bottom, rgba(22, 29, 57, 0.95), rgba(22, 29, 57, 0.95)), url("../../../public/img/banner/bannerbase.jpg");
+    background: linear-gradient(to bottom, rgba(22, 29, 57, 0.95), rgba(22, 29, 57, 0.95)), url("../../../public/img/banner/bannerbase.webp");
     background-size: cover;
     background-repeat: no-repeat; 
      

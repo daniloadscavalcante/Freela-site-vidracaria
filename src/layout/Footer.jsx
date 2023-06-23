@@ -22,12 +22,12 @@ export default function Footer(){
                 <div className='contato'>
                     <span className='titulo-rodape'>Contato</span>
                     <Link to="http://"><FaPhoneAlt/>(11) 92138-9873</Link>
-                    <Link to="http://"><FaWhatsapp/>(11) 92138-9873</Link>
-                    <Link to="http://" className='email'><FaRegEnvelope/>vidraçariaoliveira@gmail.com</Link>
+                    <Link to="http://wa.me/5511981488211" target="_blank"rel="noopener noreferrer"><FaWhatsapp/>(11) 92138-9873</Link>
+                    <Link to="mailto:oliveira.vidracaria1971@gmail.com" className='email'><FaRegEnvelope/>vidraçariaoliveira@gmail.com</Link>
                     <div className='rede-sociais'>
                         <span className='titulo-rodape'>Nós siga nas redes</span>
                         <Link to="#" className='fa'><FaFacebook/></Link>
-                        <Link to="#" className='fa'><FaInstagram/></Link>
+                        <Link to="https://www.instagram.com/vidracaria.oliveira1971/" target="_blank" rel="noopener noreferrer"className='fa'><FaInstagram/></Link>
                     </div>
                 </div>
                 <div className='endereco'>
