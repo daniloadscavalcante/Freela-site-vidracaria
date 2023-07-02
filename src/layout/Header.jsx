@@ -10,7 +10,10 @@ export default function Header(){
     return(
         <header>
         <div className="navbar">
-            <img src={logo} alt="Vidraçaria oliveira"/>
+            <div className='logo'>
+                <img src={logo} alt="Vidraçaria oliveira"/>
+            </div>
+            
             <Menu 
             button={<Button texto="Orçamento" url="http://wa.me/5511981488211" svg={true}/>}
             showtoggle={true}         
